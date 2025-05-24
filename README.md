@@ -7,10 +7,16 @@ A customizable, horizontally scrollable calendar widget for Flutter, built for s
 
 ## 📸 Screenshots
 
-<div style="display: flex; gap: 24px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
+To limit the **display size** of screenshots in your `README.md`, you can use HTML `<img>` tags instead of Markdown `![alt](url)` syntax. This allows you to control the width for a cleaner and more consistent layout.
 
-  <div style="flex: 1; min-width: 300px; max-width: 400px;">
-  
+Here’s your updated section with **size-limited images**:
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Default Usage
+
 ```dart
 LinearCalendar(
   startDate: DateTime.now(),
@@ -20,11 +26,14 @@ LinearCalendar(
 )
 ```
 
-  <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot.png?raw=true" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
-  </div>
+<p align="center">
+  <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot.png?raw=true" alt="Linear Calendar Screenshot" width="300"/>
+</p>
 
-  <div style="flex: 1; min-width: 300px; max-width: 400px;">
-  
+---
+
+### 🔸 Customized Style
+
 ```dart
 LinearCalendar(
   startDate: DateTime(2025, 5, 15),
@@ -37,12 +46,29 @@ LinearCalendar(
 )
 ```
 
-  <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot2.png?raw=true" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
-  </div>
+<p align="center">
+  <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot2.png?raw=true" alt="Linear Calendar Screenshot 2" width="300"/>
+</p>
 
-</div>
+---
 
+### 🔸 Customized Style
 
+```dart
+LinearCalendar(
+  startDate: DateTime(2025, 5, 15),
+  selectedColor: Colors.deepPurple,
+  unselectedColor: Colors.grey,
+  foregroundColor: Colors.white,
+  onDateChanged: (date) {
+    debugPrint('Selected date: $date');
+  },
+)
+```
+
+<p align="center">
+  <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot2.png?raw=true" alt="Linear Calendar Screenshot 2" width="600"/>
+</p>
 
 ---
 
