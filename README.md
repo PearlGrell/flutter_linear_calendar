@@ -1,3 +1,4 @@
+
 # 📅 LinearCalendar
 
 A customizable, horizontally scrollable calendar widget for Flutter, built for simplicity and flexibility.
@@ -55,13 +56,15 @@ class MyCalendarPage extends StatelessWidget {
 
 ## 🧩 Parameters
 
-| Parameter          | Type                     | Required | Description                                       |
+| Property           | Type                     | Required | Description                                       |
 | ------------------ | ------------------------ | -------- | ------------------------------------------------- |
-| `startDate`        | `DateTime`               | ✅        | Start of the date range                           |
-| `endDate`          | `DateTime?`              | ❌        | End of the date range (defaults to 30 days ahead) |
+| `startDate`        | `DateTime`               | ✅        | Start of the calendar range                       |
+| `endDate`          | `DateTime?`              | ❌        | End of the calendar range (defaults to 30 days ahead) |
 | `onDateChanged`    | `ValueChanged<DateTime>` | ✅        | Called when a date is selected                    |
 | `selectedColor`    | `Color?`                 | ❌        | Background color for the selected date            |
-| `scrollController` | `ScrollController?`      | ❌        | Custom scroll controller                          |
+| `unselectedColor`  | `Color?`                 | ❌        | Background color for unselected dates             |
+| `foregroundColor`  | `Color?`                 | ❌        | Text color for the dates                          |
+| `scrollController` | `ScrollController?`      | ❌        | Custom scroll controller for the calendar         |
 
 ---
 
@@ -71,6 +74,9 @@ class MyCalendarPage extends StatelessWidget {
 LinearCalendar(
   startDate: DateTime.now().subtract(Duration(days: 15)),
   endDate: DateTime.now().add(Duration(days: 30)),
+  selectedColor: Colors.blueAccent,
+  unselectedColor: Colors.grey[200],
+  foregroundColor: Colors.black,
   onDateChanged: (date) => debugPrint("Date tapped: $date"),
 )
 ```
