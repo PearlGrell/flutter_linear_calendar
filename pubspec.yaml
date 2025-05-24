@@ -1,7 +1,7 @@
 name: flutter_linear_calendar
 description: "A reusable horizontal date selector widget for Flutter."
 version: 0.0.1
-homepage: 
+repository: "https://github.com/PearlGrell/flutter_linear_calendar"
 
 environment:
   sdk: ^3.7.2
