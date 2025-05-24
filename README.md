@@ -7,28 +7,7 @@ A customizable, horizontally scrollable calendar widget for Flutter, built for s
 
 ## 📸 Screenshots
 
-To limit the **display size** of screenshots in your `README.md`, you can use HTML `<img>` tags instead of Markdown `![alt](url)` syntax. This allows you to control the width for a cleaner and more consistent layout.
-
-Here’s your updated section with **size-limited images**:
-
----
-
-## 📸 Screenshots
-
-### 🔹 Default Usage
-
-```dart
-LinearCalendar(
-  startDate: DateTime.now(),
-  onDateChanged: (date) {
-    debugPrint('Selected date: $date');
-  },
-)
-```
-
-<p align="center">
-  <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot.png?raw=true" alt="Linear Calendar Screenshot" width="600"/>
-</p>
+<table> <tr> <td align="center"> <strong>Default Usage</strong><br> <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot.png?raw=true" alt="Default Calendar" width="300"/><br> <pre><code> LinearCalendar( startDate: DateTime.now(), onDateChanged: (date) { debugPrint('Selected date: $date'); }, ) </code></pre> </td> <td align="center"> <strong>Customized Style</strong><br> <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot2.png?raw=true" alt="Custom Calendar" width="300"/><br> <pre><code> LinearCalendar( startDate: DateTime(2025, 5, 15), selectedColor: Colors.deepPurple, unselectedColor: Colors.grey, foregroundColor: Colors.white, onDateChanged: (date) { debugPrint('Selected date: $date'); }, ) </code></pre> </td> </tr> </table>
 
 ---
 
