@@ -7,11 +7,10 @@ A customizable, horizontally scrollable calendar widget for Flutter, built for s
 
 ## 📸 Screenshots
 
-<table>
-  <tr>
-    <td><img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot.png?raw=true" width="360"/></td>
-    <td>
+<div style="display: flex; gap: 24px; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
 
+  <div style="flex: 1; min-width: 300px; max-width: 400px;">
+  
 ```dart
 LinearCalendar(
   startDate: DateTime.now(),
@@ -21,12 +20,11 @@ LinearCalendar(
 )
 ```
 
-    </td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot2.png?raw=true" width="360"/></td>
-    <td>
+  <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot.png?raw=true" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  </div>
 
+  <div style="flex: 1; min-width: 300px; max-width: 400px;">
+  
 ```dart
 LinearCalendar(
   startDate: DateTime(2025, 5, 15),
@@ -39,9 +37,11 @@ LinearCalendar(
 )
 ```
 
-    </td>
-  </tr>
-</table>
+  <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot2.png?raw=true" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  </div>
+
+</div>
+
 
 
 ---
