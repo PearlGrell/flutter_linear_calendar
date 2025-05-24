@@ -35,3 +35,8 @@
 
 ### Fixed
 - Added screenshot to the documentation.
+
+## [0.0.7] - 2025-05-24
+
+### Fixed
+- Fixed minor formatting issues in the documentation.

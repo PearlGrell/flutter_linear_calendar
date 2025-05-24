@@ -7,14 +7,6 @@ A customizable, horizontally scrollable calendar widget for Flutter, built for s
 
 ## 📸 Screenshots
 
-To limit the **display size** of screenshots in your `README.md`, you can use HTML `<img>` tags instead of Markdown `![alt](url)` syntax. This allows you to control the width for a cleaner and more consistent layout.
-
-Here’s your updated section with **size-limited images**:
-
----
-
-## 📸 Screenshots
-
 ### 🔹 Default Usage
 
 ```dart
