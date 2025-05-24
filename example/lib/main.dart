@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:linear_calendar/linear_calendar.dart';
+import 'package:flutter_linear_calendar/flutter_linear_calendar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,10 +38,8 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Center(
         child: LinearCalendar(
           startDate: DateTime.now(),
-          endDate: DateTime.now().add(const Duration(days: 30)),
-          selectedDate: DateTime.now(),
-          onDateSelected: (date) {
-            print('Selected date: $date');
+          onDateChanged: (date) {
+            debugPrint('Selected date: $date');
           },
         ),
       ),

@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
+/// A customizable, horizontally scrollable linear calendar widget for Flutter.
+///
+/// Displays a range of dates in a horizontal list and allows date selection
+/// with visual indicators and customizable styling.
 class LinearCalendar extends StatefulWidget {
-  final ValueChanged<DateTime> onDateChanged;
-  final DateTime startDate;
-  final DateTime? endDate;
-  final Color? selectedColor;
-  final Color? unselectedColor;
-  final Color? foregroundColor;
-  final ScrollController? scrollController;
-
+  /// Creates a [LinearCalendar].
+  ///
+  /// [startDate] and [onDateChanged] are required.
+  /// If [endDate] is not provided, it defaults to 30 days after [startDate].
   const LinearCalendar({
     super.key,
     required this.onDateChanged,
@@ -19,6 +19,29 @@ class LinearCalendar extends StatefulWidget {
     this.foregroundColor,
     this.unselectedColor,
   });
+
+  /// The starting date of the calendar range.
+  final DateTime startDate;
+
+  /// The ending date of the calendar range.
+  ///
+  /// If not provided, defaults to 30 days after [DateTime.now].
+  final DateTime? endDate;
+
+  /// Called when a date is tapped.
+  final ValueChanged<DateTime> onDateChanged;
+
+  /// The background color for the selected date.
+  final Color? selectedColor;
+
+  /// The background color for unselected dates.
+  final Color? unselectedColor;
+
+  /// The text color for date labels.
+  final Color? foregroundColor;
+
+  /// An optional scroll controller for the horizontal calendar view.
+  final ScrollController? scrollController;
 
   @override
   State<LinearCalendar> createState() => _LinearCalendarState();

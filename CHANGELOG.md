@@ -25,3 +25,8 @@
 
 ### Fixed
 - Added example in the documentation.
+
+## [0.0.5] - 2025-05-24
+
+### Fixed
+- Fixed minor formatting issues in the documentation.
