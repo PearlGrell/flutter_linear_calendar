@@ -5,6 +5,11 @@ A customizable, horizontally scrollable calendar widget for Flutter, built for s
 
 ---
 
+## 📸 Screenshots
+
+![Linear Calendar Screenshot](https://raw.githubusercontent.com/pearlgrell/linear_calendar/main/screenshots/screenshot.png)
+![Linear Calendar Screenshot 2](https://raw.githubusercontent.com/pearlgrell/linear_calendar/main/screenshots/screenshot2.png)
+
 ## ✨ Features
 
 - Horizontal scrolling calendar view
