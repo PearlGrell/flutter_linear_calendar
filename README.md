@@ -7,7 +7,15 @@ A customizable, horizontally scrollable calendar widget for Flutter, built for s
 
 ## 📸 Screenshots
 
-![Linear Calendar Screenshot](https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot.png?raw=true)
+To limit the **display size** of screenshots in your `README.md`, you can use HTML `<img>` tags instead of Markdown `![alt](url)` syntax. This allows you to control the width for a cleaner and more consistent layout.
+
+Here’s your updated section with **size-limited images**:
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Default Usage
 
 ```dart
 LinearCalendar(
@@ -18,7 +26,13 @@ LinearCalendar(
 )
 ```
 
-![Linear Calendar Screenshot 2](https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot2.png?raw=true)
+<p align="center">
+  <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot.png?raw=true" alt="Linear Calendar Screenshot" width="600"/>
+</p>
+
+---
+
+### 🔸 Customized Style
 
 ```dart
 LinearCalendar(
@@ -31,6 +45,12 @@ LinearCalendar(
   },
 )
 ```
+
+<p align="center">
+  <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot2.png?raw=true" alt="Linear Calendar Screenshot 2" width="600"/>
+</p>
+
+---
 
 ## ✨ Features
 
