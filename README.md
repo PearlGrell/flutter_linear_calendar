@@ -52,24 +52,6 @@ LinearCalendar(
 
 ---
 
-### 🔸 Customized Style
-
-```dart
-LinearCalendar(
-  startDate: DateTime(2025, 5, 15),
-  selectedColor: Colors.deepPurple,
-  unselectedColor: Colors.grey,
-  foregroundColor: Colors.white,
-  onDateChanged: (date) {
-    debugPrint('Selected date: $date');
-  },
-)
-```
-
-<p align="center">
-  <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot2.png?raw=true" alt="Linear Calendar Screenshot 2" width="600"/>
-</p>
-
 ---
 
 ## ✨ Features
