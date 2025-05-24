@@ -9,3 +9,9 @@
   - Date selection callback.
   - Optional customization of selected/unselected/foreground colors.
   - External `ScrollController` support.
+
+## [0.0.2] - 2025-05-24
+
+### Fixed
+- Updated `README.md` to include correct usage example.
+- Fixed minor formatting issues in the documentation.
