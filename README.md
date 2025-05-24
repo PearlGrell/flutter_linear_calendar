@@ -8,7 +8,29 @@ A customizable, horizontally scrollable calendar widget for Flutter, built for s
 ## 📸 Screenshots
 
 ![Linear Calendar Screenshot](https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot.png?raw=true)
+
+```dart
+LinearCalendar(
+  startDate: DateTime.now(),
+  onDateChanged: (date) {
+    debugPrint('Selected date: $date');
+  },
+)
+```
+
 ![Linear Calendar Screenshot 2](https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot2.png?raw=true)
+
+```dart
+LinearCalendar(
+  startDate: DateTime(2025, 5, 15),
+  selectedColor: Colors.deepPurple,
+  unselectedColor: Colors.grey,
+  foregroundColor: Colors.white,
+  onDateChanged: (date) {
+    debugPrint('Selected date: $date');
+  },
+)
+```
 
 ## ✨ Features
 
