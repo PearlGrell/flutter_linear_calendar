@@ -7,9 +7,6 @@ A customizable, horizontally scrollable calendar widget for Flutter, built for s
 
 ## 📸 Screenshots
 
-Here is the full snippet in **text format** that you can copy into your `README.md`:
-
-````markdown
 <table>
   <tr>
     <td><img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot.png?raw=true" width="360"/></td>
@@ -45,7 +42,6 @@ LinearCalendar(
     </td>
   </tr>
 </table>
-````
 
 
 ---
