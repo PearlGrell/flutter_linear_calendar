@@ -7,11 +7,28 @@ A customizable, horizontally scrollable calendar widget for Flutter, built for s
 
 ## 📸 Screenshots
 
-<table> <tr> <td align="center"> <strong>Default Usage</strong><br> <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot.png?raw=true" alt="Default Calendar" width="300"/><br> <pre><code> LinearCalendar( startDate: DateTime.now(), onDateChanged: (date) { debugPrint('Selected date: $date'); }, ) </code></pre> </td> <td align="center"> <strong>Customized Style</strong><br> <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot2.png?raw=true" alt="Custom Calendar" width="300"/><br> <pre><code> LinearCalendar( startDate: DateTime(2025, 5, 15), selectedColor: Colors.deepPurple, unselectedColor: Colors.grey, foregroundColor: Colors.white, onDateChanged: (date) { debugPrint('Selected date: $date'); }, ) </code></pre> </td> </tr> </table>
+Here is the full snippet in **text format** that you can copy into your `README.md`:
 
----
+````markdown
+<table>
+  <tr>
+    <td><img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot.png?raw=true" width="360"/></td>
+    <td>
 
-### 🔸 Customized Style
+```dart
+LinearCalendar(
+  startDate: DateTime.now(),
+  onDateChanged: (date) {
+    debugPrint('Selected date: $date');
+  },
+)
+```
+
+    </td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot2.png?raw=true" width="360"/></td>
+    <td>
 
 ```dart
 LinearCalendar(
@@ -25,9 +42,11 @@ LinearCalendar(
 )
 ```
 
-<p align="center">
-  <img src="https://github.com/PearlGrell/flutter_linear_calendar/blob/main/screenshots/screenshot2.png?raw=true" alt="Linear Calendar Screenshot 2" width="600"/>
-</p>
+    </td>
+  </tr>
+</table>
+````
+
 
 ---
 
