@@ -15,3 +15,8 @@
 ### Fixed
 - Updated `README.md` to include correct usage example.
 - Fixed minor formatting issues in the documentation.
+
+## [0.0.3] - 2025-05-24
+
+### Fixed
+- Fixed minor formatting issues in the documentation.

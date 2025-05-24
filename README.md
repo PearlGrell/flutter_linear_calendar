@@ -21,8 +21,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  linear_calendar:
-    path: ../linear_calendar # or replace with your git/url or pub.dev path
+  linear_calendar: ^0.0.3
 ````
 
 Then run:
@@ -46,7 +45,6 @@ class MyCalendarPage extends StatelessWidget {
       onDateChanged: (selectedDate) {
         print("Selected date: $selectedDate");
       },
-      selectedColor: Colors.greenAccent, // Optional
     );
   }
 }
