@@ -36,7 +36,9 @@
 ### Fixed
 - Added screenshot to the documentation.
 
-## [0.0.7] - 2025-05-24
+## [1.0.0] - 2025-05-24
 
-### Fixed
-- Fixed minor formatting issues in the documentation.
+### Release
+- Finalized the `LinearCalendar` widget package.
+- Ensured all features are stable and well-documented.
+- Updated `CHANGELOG.md` to reflect the final version.
