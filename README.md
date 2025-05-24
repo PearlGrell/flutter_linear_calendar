@@ -32,26 +32,6 @@ flutter pub get
 
 ---
 
-## 🛠️ Usage
-
-```dart
-import 'package:linear_calendar/linear_calendar.dart';
-
-class MyCalendarPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return LinearCalendar(
-      startDate: DateTime(2023, 1, 1),
-      onDateChanged: (selectedDate) {
-        print("Selected date: $selectedDate");
-      },
-    );
-  }
-}
-```
-
----
-
 ## 🧩 Parameters
 
 | Property           | Type                     | Required | Description                                       |

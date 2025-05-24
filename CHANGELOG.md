@@ -20,3 +20,8 @@
 
 ### Fixed
 - Fixed minor formatting issues in the documentation.
+
+## [0.0.4] - 2025-05-24
+
+### Fixed
+- Added example in the documentation.
