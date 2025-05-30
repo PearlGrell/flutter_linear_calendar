@@ -62,7 +62,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  linear_calendar: ^0.0.3
+  flutter_linear_calendar: ^1.0.1
 ````
 
 Then run:
