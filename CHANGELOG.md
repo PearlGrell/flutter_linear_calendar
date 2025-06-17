@@ -1,4 +1,4 @@
-## [2.0.1] - 2025-06-17
+## [2.0.2] - 2025-06-17
 
 ### Fixed
 - Updated the documentation.
