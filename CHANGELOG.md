@@ -1,3 +1,8 @@
+## [2.0.1] - 2025-06-17
+
+### Fixed
+- Updated the documentation.
+
 ## [2.0.0] - 2025-06-17
 
 ### Added
@@ -15,8 +20,6 @@
 - Refactored internals for easier state handling and readability.
 - Improved tap handling logic and restored selection animations.
 - Improved theming defaults for better integration with dark/light themes.
-
----
 
 ## [1.0.1] - 2025-05-30
 
